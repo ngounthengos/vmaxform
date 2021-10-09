@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FreefireController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +15,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('freefire/index');
 });
+Route::post("squad", [FreefireController::class, 'addData']);
+Route::get("application", [FreefireController::class, 'showData']);
+Route::view("success", "success");
+Route::view("team", "freefire/squad");
