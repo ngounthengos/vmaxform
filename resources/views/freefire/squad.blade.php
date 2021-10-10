@@ -18,15 +18,15 @@
                         <div class="mx-auto max-w-lg ">
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">ឈ្មោះរបស់អ្នក</span>
-                                <input placeholder="" type="text"
+                                <input placeholder="សូមបំពេញឈ្មោះពិតរបស់អ្នក" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="name">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" name="name">
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">លេខទូរស័ព្ទ</span>
-                                <input placeholder="" type="text"
+                                <input placeholder="000-000-000(0)" type="tel"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="phone">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" name="phone" required>
                             </div>
                             
                             <div class="py-5">
@@ -35,56 +35,53 @@
                                 <span class="px-1 text-sm text-gray-600">ឈ្មោះក្រុម</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="team">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="team" required>
                             </div>
                             
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">សញ្ញាសំគាល់ក្រុម</span>
                                 <input placeholder="" type="file"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="logo">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="logo">
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ១ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="id1">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id1" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ២ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="id2">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id2" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ៣ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="id3">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id3" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ៤ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="id4">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id4" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600">កីឡាករបំរុង Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300 placeholder-gray-600 shadow-md focus:placeholder-gray-500 focus:bg-white focus:border-gray-600 focus:outline-none" name="id5">
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id5">
                             </div>
                             <div class="flex justify-start">
                                 <label class="block text-gray-500 font-bold my-4 flex items-center">
-                                    <input class="leading-8 text-pink-600 top-0" type="checkbox"/>
+                                    <input class="leading-8 text-pink-600 top-0" type="checkbox" required/>
                                     <span class="ml-2 text-sm py-2 text-gray-600 text-left">ខ្ញុំយល់ព្រមតាម
-                                          <a href="#"
+                                          <a href="/terms"
                                              class="font-semibold text-black border-b-2 border-gray-200 hover:border-gray-500">
                                            លក្ខខណ្ឌ និងច្បាប់នៃការប្រកួតរបស់អ្នករៀបចំការប្រកួត
-                                          </a>និង
-                                          <a href="#"
-                                             class="font-semibold text-black border-b-2 border-gray-200 hover:border-gray-500">
-                                            និងគោលការណ៍ឯកជនភាព</a>
+                                          </a>
                                     </span>
                                 </label>
                             </div>
@@ -104,7 +101,6 @@
           </span>
                         </a>
                     </div>
-
                 </div>
             </div>
         </div>

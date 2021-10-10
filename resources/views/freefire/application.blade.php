@@ -20,7 +20,7 @@
         <td class="px-6 py-2 text-xs">{{$freefire['name']}}</td>
         <td class="px-6 py-2 text-xs">{{$freefire['phone']}}</td>
         <td class="px-6 py-2 text-xs">{{$freefire['team']}}</td>
-        <td class="px-6 py-2 text-xs"><img src="http://127.0.0.1:8000/storage/{{$freefire['logo']}}" class="w-8"></td>
+        <td class="px-6 py-2 text-xs"><img src="https://freefire.vmaxesports.com/storage/{{$freefire['logo']}}" class="w-8"></td>
         <td class="px-6 py-2 text-xs">{{$freefire['id1']}}</td>
         <td class="px-6 py-2 text-xs">{{$freefire['id2']}}</td>
         <td class="px-6 py-2 text-xs">{{$freefire['id3']}}</td>

@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FreefireController;
+use App\Http\Controllers\soloFreeFireController;
+use App\Http\Controllers\FacebookController;
 
 /*
 |--------------------------------------------------------------------------
@@ -17,7 +19,19 @@ use App\Http\Controllers\FreefireController;
 Route::get('/', function () {
     return view('freefire/index');
 });
+
+Route::view("squad", "freefire/squad");
 Route::post("squad", [FreefireController::class, 'addData']);
 Route::get("application", [FreefireController::class, 'showData']);
-Route::view("success", "success");
-Route::view("team", "freefire/squad");
+
+
+Route::view("solo", "freefire/solo");
+Route::post("solo", [soloFreeFireController::class, 'addData']);
+
+Route::view("terms", "freefire/terms");
+
+// Facebook Login URL
+// Route::prefix('facebook')->name('facebook.')->group( function(){
+//     Route::get('auth',[FacebookController::class, 'loginUsingFacebook'])->name('login');
+//     Route::get('callback', [FacebookController::class, 'callbackFromFacebook'])->name('callback');
+// });

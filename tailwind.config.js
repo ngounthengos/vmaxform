@@ -6,7 +6,17 @@ module.exports = {
   ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+
+    extend: {
+      fontFamily: {
+        'vmax': ['Siemreap', 'Roboto'],
+      },
+      listStyleType: {
+        decimal: 'decimal',
+        square: 'square',
+        roman: 'upper-roman',
+      }
+    },
   },
   variants: {
     extend: {},

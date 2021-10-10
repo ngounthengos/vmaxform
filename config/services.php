@@ -30,4 +30,9 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    'facebook' => [
+        'client_id' => '516278539477658',
+        'client_secret' => 'e61803d030a677c74aabfe27d0d81288',
+        'redirect' => 'https://freefire.vmaxesports.com/facebook/callback/',
+    ],
 ];
