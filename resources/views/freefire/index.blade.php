@@ -1,9 +1,9 @@
 <x-header />
 
-<body class="bg-blue-100 flex h-screen">
-    <div class="m-auto p-2">
+<body class="w-full h-full">
+    <div class="m-auto p-5">
         <div class='flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden mx-auto font-vmax'>
-            <div class="overflow-hidden rounded-xl relative shadow-lg hover:shadow-2xl movie-item text-white movie-card" data-movie-id="438631">
+            <div class="overflow-hidden rounded-xl relative shadow-lg hover:shadow-2xl movie-item text-white movie-card">
         <div class="absolute inset-0 z-10 transition duration-300 ease-in-out bg-gradient-to-t from-black via-gray-900 to-transparent"></div>
         <div class="relative cursor-pointer group z-10 px-10 pt-10 space-y-6 movie_info" data-lity="">
             <div class="poster__info align-self-end w-full">
@@ -31,7 +31,7 @@
                     <div class="flex flex-col overview">
                         <div class="flex flex-col"></div>
                         <div class="text-xs text-gray-400 mb-2">អំពីការប្រកួត</div>
-                        <p class="text-xs text-gray-300 mb-6">
+                        <p class="text-xs text-gray-300 mb-6 leading-6">
                             ការប្រកួត VMAX Free Fire Series I ជាការប្រកួតកីឡាអេឡិចត្រូនិច អនឡាញ លើវិញ្ញាសារ Free Fire ដែលបានផ្តួចផ្តើម និងរៀបចំដោយក្រុមការងារ VMAX។ ការប្រកួតនេះ បែងចែកជាពីផ្នែកសម្រាប់ កីឡាករលេងជាក្រុម (SQUAD) និងកីឡាករលេងម្នាក់ឯង (SOLO) ដែលផ្តល់ឪកាស អោយកីឡាករគ្រប់ៗគ្នា បញ្ចេញសមត្ថភាព។
                             ប្រាក់រង្វាន់សរុបមានចំនួនតិចតួចទេ ដែលនេះជាទឹកចិត្តក្រុមការងារ VMAX (អ្នករៀបចំការប្រកួតកីឡាអេឡិចត្រូច) ក្នុងការផ្តល់សំណើមថ្មីមួយ សម្រាប់សហគមន៍អ្នកលេង Free Fire អោយកាន់តែរីកចម្រើនមួយកំរិតទៀត។ 
                         </p>

@@ -9,7 +9,7 @@ module.exports = {
 
     extend: {
       fontFamily: {
-        'vmax': ['Siemreap', 'Roboto'],
+        'vmax': ["Noto Serif Khmer", 'Noto Sans Display'],
       },
       listStyleType: {
         decimal: 'decimal',

@@ -2,7 +2,7 @@
 <!-- component -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 
-<div class="container max-w-full mx-auto md:py-24 px-6 font-khmer">
+<div class="container max-w-full mx-auto md:py-24 px-6 font-vmax">
   <div class="max-w-lg mx-auto px-6">
         <div class="relative flex flex-wrap">
             <div class="w-full relative">
@@ -55,21 +55,12 @@
                                 </label>
                             </div>
                             <button class="mt-3 text-lg font-semibold
-            bg-gray-800 w-full text-white rounded-lg
-            px-6 py-3 block shadow-xl hover:text-white hover:bg-black" type="submit">
+            bg-blue-500 w-full text-white rounded-lg
+            px-6 py-3 block shadow-xl hover:text-white hover:bg-blue-900" type="submit">
                                 ចុះឈ្មោះ
                             </button>
                         </div>
                     </form>
-
-                    <div class="text-sm font-semibold block sm:hidden py-6 flex justify-center">
-                        <a href="#"
-                           class="text-black font-normal border-b-2 border-gray-200 hover:border-teal-500">You're already member?
-                            <span class="text-black font-semibold">
-            Login
-          </span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>

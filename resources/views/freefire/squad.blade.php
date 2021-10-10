@@ -2,7 +2,7 @@
 <!-- component -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 
-<div class="container max-w-full mx-auto md:py-24 px-6 font-khmer">
+<div class="container max-w-full mx-auto md:py-24 px-6 font-vmax">
   <div class="max-w-lg mx-auto px-6">
         <div class="relative flex flex-wrap">
             <div class="w-full relative">
@@ -17,13 +17,13 @@
                         @csrf
                         <div class="mx-auto max-w-lg ">
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">ឈ្មោះរបស់អ្នក</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">ឈ្មោះរបស់អ្នក</span>
                                 <input placeholder="សូមបំពេញឈ្មោះពិតរបស់អ្នក" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" name="name">
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">លេខទូរស័ព្ទ</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">លេខទូរស័ព្ទ</span>
                                 <input placeholder="000-000-000(0)" type="tel"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" name="phone" required>
@@ -32,44 +32,44 @@
                             <div class="py-5">
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">ឈ្មោះក្រុម</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">ឈ្មោះក្រុម</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="team" required>
                             </div>
                             
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">សញ្ញាសំគាល់ក្រុម</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">សញ្ញាសំគាល់ក្រុម</span>
                                 <input placeholder="" type="file"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="logo">
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ១ Game ID & Server ID</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ១ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id1" required>
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ២ Game ID & Server ID</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ២ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id2" required>
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ៣ Game ID & Server ID</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ៣ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id3" required>
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">កីឡាករទី​ ៤ Game ID & Server ID</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ៤ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id4" required>
                             </div>
                             <div class="py-2">
-                                <span class="px-1 text-sm text-gray-600">កីឡាករបំរុង Game ID & Server ID</span>
+                                <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករបំរុង Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
                 bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id5">
@@ -86,21 +86,12 @@
                                 </label>
                             </div>
                             <button class="mt-3 text-lg font-semibold
-            bg-gray-800 w-full text-white rounded-lg
-            px-6 py-3 block shadow-xl hover:text-white hover:bg-black" type="submit">
+            bg-blue-500 w-full text-white rounded-lg
+            px-6 py-3 block shadow-xl hover:text-white hover:bg-blue-900" type="submit">
                                 ចុះឈ្មោះ
                             </button>
                         </div>
                     </form>
-
-                    <div class="text-sm font-semibold block sm:hidden py-6 flex justify-center">
-                        <a href="#"
-                           class="text-black font-normal border-b-2 border-gray-200 hover:border-teal-500">You're already member?
-                            <span class="text-black font-semibold">
-            Login
-          </span>
-                        </a>
-                    </div>
                 </div>
             </div>
         </div>
