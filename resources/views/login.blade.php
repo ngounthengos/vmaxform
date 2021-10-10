@@ -1,0 +1,1 @@
+<a href="{{route('facebook.login')}}">click</a>
