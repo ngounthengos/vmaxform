@@ -15,6 +15,7 @@ module.exports = {
         decimal: 'decimal',
         square: 'square',
         roman: 'upper-roman',
+        "lower-roman": 'lower-roman',
       }
     },
   },

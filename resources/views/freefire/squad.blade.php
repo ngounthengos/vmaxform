@@ -2,7 +2,7 @@
 <!-- component -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 
-<div class="container max-w-full mx-auto md:py-24 px-6 font-vmax">
+<div class="container max-w-full mx-auto py-10 md:py-24 px-6 font-vmax">
   <div class="max-w-lg mx-auto px-6">
         <div class="relative flex flex-wrap">
             <div class="w-full relative">
@@ -26,7 +26,8 @@
                                 <span class="px-1 text-sm text-gray-600 leading-8">លេខទូរស័ព្ទ</span>
                                 <input placeholder="000-000-000(0)" type="tel"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" name="phone" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" name="phone" required>
                             </div>
                             
                             <div class="py-5">
@@ -35,7 +36,8 @@
                                 <span class="px-1 text-sm text-gray-600 leading-8">ឈ្មោះក្រុម</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="team" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="team"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" required>
                             </div>
                             
                             <div class="py-2">
@@ -48,25 +50,29 @@
                                 <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ១ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id1" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id1"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ២ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id2" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id2"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ៣ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id3" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id3"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករទី​ ៤ Game ID & Server ID</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id4" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" name="id4" required>
                             </div>
                             <div class="py-2">
                                 <span class="px-1 text-sm text-gray-600 leading-8">កីឡាករបំរុង Game ID & Server ID</span>

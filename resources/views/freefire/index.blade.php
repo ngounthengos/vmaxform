@@ -1,6 +1,6 @@
 <x-header />
 
-<body class="w-full h-full">
+<body class="flex h-screen">
     <div class="m-auto p-5">
         <div class='flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden mx-auto font-vmax'>
             <div class="overflow-hidden rounded-xl relative shadow-lg hover:shadow-2xl movie-item text-white movie-card">

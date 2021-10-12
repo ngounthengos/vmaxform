@@ -2,7 +2,7 @@
 <!-- component -->
 <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.x.x/dist/alpine.js" defer></script>
 
-<div class="container max-w-full mx-auto md:py-24 px-6 font-vmax">
+<div class="container max-w-full mx-auto py-10 md:py-24 px-6 font-vmax">
   <div class="max-w-lg mx-auto px-6">
         <div class="relative flex flex-wrap">
             <div class="w-full relative">
@@ -26,7 +26,8 @@
                                 <span class="px-1 text-sm text-gray-600">លេខទូរស័ព្ទ</span>
                                 <input placeholder="000-000-000(0)" type="tel"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" name="phone" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none italic-placeholder" oninvalid="this.setCustomValidity('សូមបំពេញលេខទូរស័ព្ទ អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" name="phone" required>
                             </div>
                             
                             <div class="py-5">
@@ -35,13 +36,15 @@
                                 <span class="px-1 text-sm text-gray-600">ឈ្មោះក្នុងហ្គេម (In Game Name)</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="gamename" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none"  oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" name="gamename" required>
                             </div>
                             
                                 <span class="px-1 text-sm text-gray-600">លេខគណនីហ្គេម (Game ID)</span>
                                 <input placeholder="" type="text"
                                        class="text-md block px-3 py-2 rounded-lg w-full
-                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none" name="id" required>
+                bg-white border-2 border-gray-300  shadow-md focus: focus:bg-white focus:border-gray-600 focus:outline-none"   oninvalid="this.setCustomValidity('សូមបំពេញលេខព័ត៌មាន អោយបានត្រឹមត្រូវ')"
+                oninput="this.setCustomValidity('')" name="id" required>
                             </div>
                             <div class="flex justify-start">
                                 <label class="block text-gray-500 font-bold my-4 flex items-center">
