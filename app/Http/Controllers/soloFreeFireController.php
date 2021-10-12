@@ -15,6 +15,6 @@ class soloFreeFireController extends Controller
         $solo -> gamename = $req->gamename;
         $solo -> id = $req->id;
         $solo -> save();
-        return redirect('https://t.me/vmaxesports');
+        return redirect('https://t.me/joinchat/Sv1jm5EDzo44MmY1');
     }
 }

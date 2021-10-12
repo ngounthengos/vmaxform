@@ -23,7 +23,7 @@ class FreefireController extends Controller
         $freefire -> id4 = $req->id4;
         $freefire -> id5 = $req->id5;
         $freefire -> save();
-        return redirect('https://t.me/vmaxesports');
+        return redirect('https://t.me/joinchat/syZYTtcDLpU4ZjM1');
     }
 
     function showData()
